@@ -5,17 +5,17 @@ import React from 'react'
 export default function App() {
   let questions = [
     {
-      statement: "What is the name of capita of Pakistan?",
+      statement: "What is the name of capital of Pakistan?",
       options: ['Lahore', 'Karachi', 'Islamabad', 'Peshawar'],
       ans: 'Islamabad',
     },
     {
-      statement: "What is the name of capita of Turkey?",
+      statement: "What is the name of capital of Turkey?",
       options: ['Ankara', 'Istanbul', 'Izmir', 'Bursa'],
       ans: 'Ankara',
     },
     {
-      statement: "What is the name of capita of United Arab Emirates?",
+      statement: "What is the name of capital of United Arab Emirates?",
       options: ['Sharjah', 'Abu Dhabi', 'Dubai', 'Ajman'],
       ans: 'Abu Dhabi',
     },
