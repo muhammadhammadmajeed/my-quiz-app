@@ -1,0 +1,63 @@
+.App {
+    text-align: center;
+     
+     
+  }
+  
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: 10px 0;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #f4f4f4;
+  }
+  
+  li:hover {
+    background-color: #ddd;
+  }
+  
+  .selected {
+    background-color: #b3e5fc;
+  }
+  
+  .button{
+    background-color: #0dbc72;
+    border-radius: 20px;
+    width: 20%;
+    cursor: pointer;
+  }
+  .button-disable{
+    border-radius: 20px;
+    width: 20%;
+    cursor: not-allowed;
+  }
+  .div-result{
+    
+  display: flex;
+  flex-direction: column; /* stack heading and button */
+  align-items: center;    /* center horizontally */
+  justify-content: center; /* center vertically */
+  height: 100vh; /* full screen height */
+  background-color: #00bcd4; /* your background */
+}
+
+    
+   
+
+  .reset-button{
+    width: 170px;
+    height: 50px;
+    padding: 10px;
+    color: rgb(76, 23, 96);
+    margin: 60px ;
+    border-radius: 20px ;
+    margin: auto;
+    background-color: rgba(2, 248, 105, 0.211);
+    color: rgb(93, 26, 47);
+
+  }
