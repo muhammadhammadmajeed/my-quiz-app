@@ -31,7 +31,7 @@ const Quiz = () => {
   },
 ];
 
-const [currentQuestionIndex, SetCurrentQuestionIndex] = useState(4);
+const [currentQuestionIndex, SetCurrentQuestionIndex] = useState(0);
 const [currentAnswer, setCurrentAnswer] = useState(null);
 
 const handleClick = (option) =>{
