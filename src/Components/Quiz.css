@@ -1,3 +1,7 @@
+*{
+background-color: #00bcd4;
+margin: 50px;
+}
 .App {
     text-align: center;
      
@@ -7,10 +11,13 @@
   
   ul {
     list-style-type: none;
-    padding: 0;
-  }
-  
-  li {
+    padding-left: 150px ;
+    width: 250px;
+    text-align: center;
+}
+
+li {
+    border-radius: 20px;
     margin: 10px 0;
     padding: 10px;
     cursor: pointer;
@@ -19,12 +26,17 @@
   
   li:hover {
     background-color: #ddd;
+    
   }
   
   .selected {
-    background-color: #b3e5fc;
+    background-color: #3bc14a;
   }
   
+#button{
+    height: 40px;
+}
+
   .button{
     background-color: #0dbc72;
     border-radius: 20px;
