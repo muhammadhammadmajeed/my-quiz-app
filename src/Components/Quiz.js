@@ -51,7 +51,7 @@ const Quiz = () => {
     const [score, setScore] = useState(0)
     return (
 
-        <div >
+        < >
             {currentQuestionIndex < questions.length ?
                 <div>
                     <QuestionList
